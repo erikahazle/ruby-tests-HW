@@ -23,7 +23,7 @@ describe 'Ruby Homework' do
     expect(n).to eq ['a', 'b', 'c']
   end
 
-  it 'reverse_every_element_in_array' do
+  fit 'reverse_every_element_in_array' do
     n = reverse_every_element_in_array ['dog', 'monkey', 'elephant']
     expect(n).to eq ['god', 'yeknom', 'tnahpele']
   end

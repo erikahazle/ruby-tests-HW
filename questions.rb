@@ -5,12 +5,13 @@ end
 
 # keep only the elements that start with a vowel
 def select_elements_starting_with_vowel(array)
-  
+  vowels = ['a', 'o', 'i', 'u', 'e', 'y']
+  array.select  { |word| word if vowels.include?(word[0])}
 end
 
 # remove instances of nil (but NOT false) from an array
 def remove_nils_from_array(array)
-  
+  array.compact
 end
 
 # remove instances of nil AND false from an array

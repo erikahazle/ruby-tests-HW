@@ -18,7 +18,7 @@ describe 'Ruby Homework' do
     expect(n).to eq ['a', 'b', false, 'c']
   end
 
-  it 'remove_nils_and_false_from_array' do
+  fit 'remove_nils_and_false_from_array' do
     n = remove_nils_and_false_from_array ['a', 'b', nil, nil, false, 'c', nil]
     expect(n).to eq ['a', 'b', 'c']
   end

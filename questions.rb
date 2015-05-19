@@ -105,12 +105,12 @@ end
 # turn an array into itself repeated twice. So [1, 2, 3]
 # becomes [1, 2, 3, 1, 2, 3]
 def double_array(array)
-  
+  array.each { |element| array.push(element)}
 end
 
 # convert a symbol into a string
 def turn_symbol_into_string(symbol)
-  
+  symbol.to_s
 end
 
 # get the average from an array, rounded to the nearest integer

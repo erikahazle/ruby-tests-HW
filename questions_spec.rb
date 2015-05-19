@@ -141,7 +141,7 @@ describe 'Ruby Homework' do
     expect(n).to eq 4
   end
 
-  it 'round_down_number' do
+  fit 'round_down_number' do
     n = round_down_number 4.9
     expect(n).to eq 4
   end

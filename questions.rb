@@ -157,7 +157,11 @@ end
 # add all the keys and all the values together, e.g.
 # {1 => 1, 2 => 2} becomes 6
 def add_together_keys_and_values(hash)
-  
+  new_array = []
+  new_array.push(hash.keys)
+  new_array.push(hash.values)
+  new_array.flatten!
+  new_array.inject { |total, number| total + number}
 end
 
 # take out all the capital letters from a string

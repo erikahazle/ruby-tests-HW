@@ -31,14 +31,12 @@ end
 # [['Bob', 'Clive'], ['Bob', 'Dave'], ['Clive', 'Dave']]
 # make sure you don't have the same pairing twice, 
 def every_possible_pairing_of_students(array)
-  array.map do |student|
-    
+  array.combination(2)
 end
 
 # discard the first 3 elements of an array, 
 # e.g. [1, 2, 3, 4, 5, 6] becomes [4, 5, 6]
 def all_elements_except_first_3(array)
-  
 end
 
 # add an element to the beginning of an array

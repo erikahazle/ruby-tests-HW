@@ -5,7 +5,7 @@ end
 
 # keep only the elements that start with a vowel
 def select_elements_starting_with_vowel(array)
-  vowels = ['a', 'o', 'i', 'u', 'e', 'y']
+  vowels = ['a', 'o', 'i', 'u', 'e']
   array.select  { |word| word if vowels.include?(word[0])}
 end
 
@@ -31,7 +31,8 @@ end
 # [['Bob', 'Clive'], ['Bob', 'Dave'], ['Clive', 'Dave']]
 # make sure you don't have the same pairing twice, 
 def every_possible_pairing_of_students(array)
-  
+  array.map do |student|
+    
 end
 
 # discard the first 3 elements of an array, 

@@ -151,7 +151,7 @@ describe 'Ruby Homework' do
     expect(n).to eq '31/10/2013'
   end
 
-  it 'get_domain_name_from_email_address' do
+  fit 'get_domain_name_from_email_address' do
     n = get_domain_name_from_email_address 'jeremy@generalassemb.ly'
     expect(n).to eq 'generalassemb.ly'
   end
